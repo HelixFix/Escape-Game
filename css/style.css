@@ -10,7 +10,7 @@
 
 .background {
     width: 100%;
-    
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@
 #hero {
     /* height: 1120px; */
     height: 100%;
-    min-height:100vh;
+    min-height: 100vh;
     background-image: url(/img/Hero.png);
     position: relative;
 }
@@ -33,7 +33,7 @@
     left: 0;
     right: 0;
     margin: auto;
-  
+
 }
 
 #closed {
@@ -43,9 +43,33 @@
 
 #rooms {
     height: 100vh;
-    min-height:1080px;
+    min-height: 1080px;
 }
 
 #reservation {
     height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    justify-content: center;
 }
