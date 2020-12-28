@@ -73,3 +73,20 @@ h2 {
 .row {
     justify-content: center;
 }
+
+li > a {
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    padding: 0px;
+}
+
+.padZero {
+    padding: 0px;
+}
+
+#navbarDropdownMenuLink {
+    background-color: red;
+}
