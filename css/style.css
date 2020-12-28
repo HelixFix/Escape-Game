@@ -74,14 +74,14 @@ h2 {
     justify-content: center;
 }
 
-li > a {
+li>a {
     color: white;
 }
 
 .navbar {
     background-color: black;
     padding: 0px;
-    
+
 }
 
 .padZero {
@@ -98,17 +98,32 @@ li > a {
     .navbar-brand {
         position: absolute;
         padding-left: 8%;
-        
+
     }
+
     .navbar-nav {
-        float:none;
-        margin:0 auto;
+        float: none;
+        margin: 0 auto;
         display: block;
         text-align: center;
     }
-    
-    .navbar-nav > li {
+
+    .navbar-nav>li {
         display: inline-block;
-        float:none;
+        float: none;
     }
-  }
+}
+
+@media screen and (max-width: 430px) {
+    #hero {
+        display: none;
+    }
+
+    #closed {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
