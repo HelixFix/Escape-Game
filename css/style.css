@@ -81,6 +81,7 @@ li > a {
 .navbar {
     background-color: black;
     padding: 0px;
+    
 }
 
 .padZero {
@@ -90,3 +91,24 @@ li > a {
 #navbarDropdownMenuLink {
     background-color: red;
 }
+
+
+
+@media screen and (min-width: 992px) {
+    .navbar-brand {
+        position: absolute;
+        padding-left: 8%;
+        
+    }
+    .navbar-nav {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+    
+    .navbar-nav > li {
+        display: inline-block;
+        float:none;
+    }
+  }
