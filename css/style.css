@@ -8,9 +8,13 @@ h2 {
     padding-bottom: 20px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
 .contenant > a {
     font-weight: bold;
-    text-decoration: underline;
+
     color: white;
 }
 
