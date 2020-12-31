@@ -3,18 +3,18 @@
 }
 
 h2 {
-    text-align: center;
-    padding-top: 50px;
+    text-align    : center;
+    padding-top   : 50px;
     padding-bottom: 20px
 }
 
 th {
-    text-align: center;
+    text-align      : center;
     background-color: #000;
-    color: #fff;
-    text-transform: uppercase;
-    border-style: solid;
-    border-width: 1px
+    color           : #fff;
+    text-transform  : uppercase;
+    border-style    : solid;
+    border-width    : 1px
 }
 
 th>img {
@@ -23,12 +23,16 @@ th>img {
 }
 
 td {
-    background-color: red;
-    color: #fff;
-    font-weight: 700;
+    background-color  : red;
+    color             : #fff;
+    font-weight       : 700;
     border-right-style: solid;
-    border-width: 1px;
-    width: 300px
+    border-width      : 1px;
+    width             : 300px
+}
+
+.padZero {
+    padding: 0
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -41,100 +45,135 @@ td {
 
 .navbar {
     background-color: #000;
-    padding: 0
+    padding         : 0
 }
 
 #navbarDropdownMenuLink {
     background-color: red
 }
 
-.contenant>a {
-    font-weight: 700;
-    color: #fff
-}
 
-.contenant>a:hover {
-    color: #fff
-}
 
 .background {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    width                : 100%;
+    background-repeat    : no-repeat;
+    background-position  : center;
+    background-size      : cover;
     background-attachment: fixed
 }
 
 #hero {
-    height: 100%;
-    min-height: 130vh;
+    height          : 100%;
+    min-height      : 130vh;
     background-image: url(/img/Hero.png);
-    position: relative
+    position        : relative
 }
 
 #hero img {
-    height: 68vh;
+    height    : 68vh;
     max-height: 390px;
-    position: absolute;
-    top: -28vh;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto
+    position  : absolute;
+    top       : -28vh;
+    bottom    : 0;
+    left      : 0;
+    right     : 0;
+    margin    : auto
 }
 
 #closed {
-    height: 425px;
+    height          : 425px;
     background-image: url(/img/closed.png)
 }
 
 #rooms {
-    height: 100vh;
+    height    : 100vh;
     min-height: 1080px
-}
-
-#reservation {
-    height: 100vh
-}
-
-.contenant {
-    position: relative;
-    text-align: center;
-    color: #fff;
-    padding: 10px
-}
-
-.centered {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%)
 }
 
 .row {
     justify-content: center
 }
 
-.padZero {
-    padding: 0
+.contenant {
+    position  : relative;
+    text-align: center;
+    color     : #fff;
+    padding   : 10px
 }
+
+.contenant>a {
+    font-weight: 700;
+    color      : #fff
+}
+
+.contenant>a:hover {
+    color: #fff
+}
+
+.centered {
+    position : absolute;
+    top      : 80%;
+    left     : 50%;
+    transform: translate(-50%, -50%)
+}
+
+#reservation {
+    height: 100vh
+}
+
+
+.center {
+
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+button {
+    background-color: red;
+    color           : white;
+    margin: 10px 0px;
+    padding: 12px 6px;
+}
+
+.btn {
+    background-color: red;
+}
+
+.dropdown-menu {
+    background-color: red;
+
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color           : white;
+    margin: 10px 0px;
+    padding: 12px 6px;
+}
+
+
 
 @media screen and (min-width:992px) {
     .navbar-brand {
-        position: absolute;
+        position    : absolute;
         padding-left: 8%
     }
 
     .navbar-nav {
-        float: none;
-        margin: 0 auto;
-        display: block;
+        float     : none;
+        margin    : 0 auto;
+        display   : block;
         text-align: center
     }
 
     .navbar-nav>li {
         display: inline-block;
-        float: none
+        float  : none
     }
 }
 
