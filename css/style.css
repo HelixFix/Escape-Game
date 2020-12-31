@@ -5,7 +5,8 @@
 h2 {
     text-align    : center;
     padding-top   : 50px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    text-transform  : uppercase;
 }
 
 th {
@@ -29,6 +30,15 @@ td {
     border-right-style: solid;
     border-width      : 1px;
     width             : 300px
+}
+
+footer {
+    height: 360px;
+    background-color: black;
+}
+
+footer  h2 {
+    color: white;
 }
 
 .padZero {
@@ -118,22 +128,24 @@ td {
 }
 
 #reservation {
-    height: 100vh
+    height    : 130vh;
+    min-height: 800px;
 }
 
 
 .center {
-
     display        : flex;
     justify-content: center;
     align-items    : center;
 }
 
+
+
 button {
     background-color: red;
     color           : white;
     margin          : 10px 0px;
-    padding         : 12px 6px;
+    padding         : 6px 12px;
 }
 
 .btn {
@@ -142,7 +154,10 @@ button {
 
 .dropdown-menu {
     background-color: red;
+}
 
+.btn:hover {
+    background-color: red;
 }
 
 .dropdown-item {
@@ -153,9 +168,40 @@ button {
     background-color: red;
     color           : white;
     margin          : 10px 0px;
-    padding         : 12px 6px;
+    padding         : 6px 12px;
 }
 
+.arrow {
+    background-color: white;
+    color           : red;
+    font-weight     : bold;
+    border-width    : 0px;
+    font-size       : 30px;
+}
+
+.left {
+    color: white
+}
+
+.left:hover {
+    cursor: default
+}
+
+
+
+.redLink {
+    color          : red;
+    text-decoration: underline;
+}
+
+.centerText {
+    text-align: center;
+    margin    : 100px 0px;
+}
+
+.centerText > p {
+    margin: 0;
+}
 
 
 @media screen and (min-width:992px) {
