@@ -132,8 +132,8 @@ td {
 button {
     background-color: red;
     color           : white;
-    margin: 10px 0px;
-    padding: 12px 6px;
+    margin          : 10px 0px;
+    padding         : 12px 6px;
 }
 
 .btn {
@@ -152,8 +152,8 @@ button {
 .red {
     background-color: red;
     color           : white;
-    margin: 10px 0px;
-    padding: 12px 6px;
+    margin          : 10px 0px;
+    padding         : 12px 6px;
 }
 
 
