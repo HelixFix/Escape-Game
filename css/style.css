@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 h2 {
@@ -24,7 +24,7 @@ th>img {
 }
 
 td {
-    background-color  : red;
+    background-color  : #F03435;
     color             : #fff;
     font-weight       : 700;
     border-right-style: solid;
@@ -37,14 +37,14 @@ footer {
     background-color: black;
 }
 
-footer  h2 {
+footer h2 {
     color: white;
 }
 
 footer p {
-    color: white;
+    color     : white;
     text-align: center;
-    margin: 0;
+    margin    : 0;
 }
 
 .padZero {
@@ -55,17 +55,17 @@ footer p {
     color: #fff
 }
 
-.nav-item {
+.nav-item:not(.dropdown) {
     text-transform: uppercase
 }
 
 .navbar {
     background-color: #000;
-    padding         : 0
+    padding         : 0;
 }
 
 #navbarDropdownMenuLink {
-    background-color: red
+    background-color: #8A1E1E
 }
 
 
@@ -148,30 +148,35 @@ footer p {
 
 
 button {
-    background-color: red;
+    background-color: #F03435;
     color           : white;
     margin          : 10px 0px;
     padding         : 6px 12px;
 }
 
 .btn {
-    background-color: red;
-}
-
-.dropdown-menu {
-    background-color: red;
+    background-color: #F03435;
+    color           : white;
 }
 
 .btn:hover {
-    background-color: red;
-}
-
-.dropdown-item {
     color: white;
 }
 
+.dropdown-menu {
+    background-color: #F03435;
+}
+
+.btn:hover {
+    background-color: #F03435;
+}
+
+.dropdown-item {
+    color: white
+}
+
 .red {
-    background-color: red;
+    background-color: #F03435;
     color           : white;
     margin          : 10px 0px;
     padding         : 6px 12px;
@@ -179,7 +184,7 @@ button {
 
 .arrow {
     background-color: white;
-    color           : red;
+    color           : #F03435;
     font-weight     : bold;
     border-width    : 0px;
     font-size       : 30px;
@@ -205,7 +210,7 @@ button {
     margin    : 100px 0px;
 }
 
-.centerText > p {
+.centerText>p {
     margin: 0;
 }
 
