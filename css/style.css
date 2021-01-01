@@ -52,6 +52,10 @@ footer p {
     margin    : 0;
 }
 
+span {
+    color: red;
+}
+
 .padZero {
     padding: 0
 }
@@ -75,6 +79,7 @@ footer p {
     background-color: #8A1E1E;
     padding: 4px 8px;
 }
+
 
 
 
@@ -142,7 +147,7 @@ footer p {
 }
 
 #reservation {
-    height    : 130vh;
+    height    : 100vh;
     min-height: 800px;
 }
 
@@ -222,6 +227,50 @@ button {
 
 .centerText>p {
     margin: 0;
+}
+
+#tarifs {
+    height: 300px;
+}
+
+.hc {
+    text-align: center;
+    background-color: #FFEDED;
+    border-radius:20px;
+}
+
+.nbjoueurs {
+    text-align: center;
+    color: red;
+    /* font-weight: bold; */
+}
+
+.rond {
+    width:25px;
+	height:25px;
+	background:lightgray;
+	font:bold 13px Arial;
+	border-radius:50%;
+	border:none;
+    color:black;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.plus {
+    padding-top: 5px;
+    padding-left: 9px;
+}
+
+.hp {
+    text-align: center;
+    background-color: #FFEDED;
+    border-radius:20px;
+}
+
+.float {
+    background-color: red;
 }
 
 
