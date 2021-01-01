@@ -231,6 +231,7 @@ button {
 
 #tarifs {
     height: 300px;
+    margin: 0px 100px;
 }
 
 .hc {
@@ -271,6 +272,9 @@ button {
 
 .float {
     background-color: red;
+    margin-top: -13px;
+    border-radius:20px;
+    display: inline-block;
 }
 
 
@@ -302,11 +306,23 @@ button {
         display: none
     }
 
-    footer {
-        display: none
+
+    .trouver {
+        background-color: black;
+       
+    }
+
+    .contact {
+        background-color: black;
+       
     }
 
     .hide {
         display: none
+    }
+
+    #tarifs {
+        height: 500px;
+        margin: 0px 100px;
     }
 }
