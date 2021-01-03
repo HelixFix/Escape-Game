@@ -72,12 +72,12 @@ span {
 .navbar {
     background-color: #000;
     padding         : 0;
-    height: 60px;
+    height          : 60px;
 }
 
 #navbarDropdownMenuLink {
     background-color: #8A1E1E;
-    padding: 4px 8px;
+    padding         : 4px 8px;
 }
 
 
@@ -115,9 +115,61 @@ span {
 }
 
 #rooms {
-    height    : 100vh;
-    min-height: 1080px
+    padding-top: 25px;
+    height     : 100vh;
+    min-height : 1080px
 }
+
+#profesor {
+    background-image: url(/img/profesor.jpg);
+    width           : 450px;
+    height          : 300px;
+    margin          : 5px;
+}
+
+#profesor  img {
+    height   : 50px;
+    filter   : invert(100%);
+    position : absolute;
+    top      : 60%;
+    left     : 50%;
+    transform: translate(-50%, -50%)
+}
+
+#yakuza {
+    background-image: url(/img/yakuza.jpg);
+    width           : 450px;
+    height          : 300px;
+    margin          : 5px;
+}
+
+#yakuza  img {
+    height   : 50px;
+    filter   : invert(100%);
+    position : absolute;
+    top      : 60%;
+    left     : 50%;
+    transform: translate(-50%, -50%)
+}
+
+#vaudou {
+    background-image: url(/img/vaudou.jpg);
+    width           : 410px;
+    height          : 255px;
+    display         : table;
+    margin          : 0 auto;
+    border          : 1px solid black;
+}
+
+#vaudou  img {
+    height   : 50px;
+    filter   : invert(100%);
+    position : absolute;
+    top      : 60%;
+    left     : 50%;
+    transform: translate(-50%, -50%)
+}
+
 
 .row {
     justify-content: center
@@ -201,8 +253,8 @@ button {
     font-weight     : bold;
     border-width    : 0px;
     font-size       : 40px;
-    padding-bottom: 17px;
-    line-height: 10px;
+    padding-bottom  : 17px;
+    line-height     : 10px;
 }
 
 .left {
@@ -235,46 +287,46 @@ button {
 }
 
 .hc {
-    text-align: center;
+    text-align      : center;
     background-color: #FFEDED;
-    border-radius:20px;
+    border-radius   : 20px;
 }
 
 .nbjoueurs {
     text-align: center;
-    color: red;
+    color     : red;
     /* font-weight: bold; */
 }
 
 .rond {
-    width:25px;
-	height:25px;
-	background:lightgray;
-	font:bold 13px Arial;
-	border-radius:50%;
-	border:none;
-    color:black;
-    font-size: 13px;
-    padding-left: 10px;
-    padding-top: 3px;
+    width        : 25px;
+    height       : 25px;
+    background   : lightgray;
+    font         : bold 13px Arial;
+    border-radius: 50%;
+    border       : none;
+    color        : black;
+    font-size    : 13px;
+    padding-left : 10px;
+    padding-top  : 3px;
 }
 
 .plus {
-    padding-top: 5px;
+    padding-top : 5px;
     padding-left: 9px;
 }
 
 .hp {
-    text-align: center;
+    text-align      : center;
     background-color: #FFEDED;
-    border-radius:20px;
+    border-radius   : 20px;
 }
 
 .float {
     background-color: red;
-    margin-top: -13px;
-    border-radius:20px;
-    display: inline-block;
+    margin-top      : -13px;
+    border-radius   : 20px;
+    display         : inline-block;
 }
 
 
