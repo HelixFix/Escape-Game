@@ -1,5 +1,10 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: "Bebas Kai";
+    src        : url(/fonts/BebasKai.ttf) format("truetype")
 }
 
 h2 {
@@ -7,6 +12,8 @@ h2 {
     padding-top   : 50px;
     padding-bottom: 20px;
     text-transform: uppercase;
+    font-size     : 43px;
+    font-family   : Bebas Kai
 }
 
 table {
@@ -19,8 +26,7 @@ th {
     color           : #fff;
     text-transform  : uppercase;
     border-style    : solid;
-    border-width    : 1px;
-    
+    border-width    : 1px
 }
 
 th>img {
@@ -29,7 +35,7 @@ th>img {
 }
 
 td {
-    background-color  : #F03435;
+    background-color  : #f03435;
     color             : #fff;
     font-weight       : 700;
     border-right-style: solid;
@@ -39,21 +45,22 @@ td {
 
 footer {
     height          : 360px;
-    background-color: black;
+    background-color: #000
 }
 
 footer h2 {
-    color: white;
+    color: #fff
 }
 
 footer p {
-    color     : white;
+    color     : #fff;
     text-align: center;
-    margin    : 0;
+    margin    : 0
 }
 
 span {
-    color: red;
+    color    : red;
+    font-size: 1.5rem
 }
 
 .padZero {
@@ -61,8 +68,7 @@ span {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-    
+    color: #fff
 }
 
 .nav-item:not(.dropdown) {
@@ -72,16 +78,13 @@ span {
 .navbar {
     background-color: #000;
     padding         : 0;
-    height          : 60px;
+    height          : 60px
 }
 
 #navbarDropdownMenuLink {
-    background-color: #8A1E1E;
-    padding         : 4px 8px;
+    background-color: #8a1e1e;
+    padding         : 4px 8px
 }
-
-
-
 
 .background {
     width                : 100%;
@@ -117,17 +120,19 @@ span {
 #rooms {
     padding-top: 25px;
     height     : 100vh;
-    min-height : 1080px
+    min-height : 1080px;
+    font-family: Bebas Kai;
+    font-size  : 53px
 }
 
 #profesor {
     background-image: url(/img/profesor.jpg);
     width           : 450px;
     height          : 300px;
-    margin          : 5px;
+    margin          : 10px
 }
 
-#profesor  img {
+#profesor img {
     height   : 50px;
     filter   : invert(100%);
     position : absolute;
@@ -140,10 +145,10 @@ span {
     background-image: url(/img/yakuza.jpg);
     width           : 450px;
     height          : 300px;
-    margin          : 5px;
+    margin          : 10px
 }
 
-#yakuza  img {
+#yakuza img {
     height   : 50px;
     filter   : invert(100%);
     position : absolute;
@@ -158,10 +163,10 @@ span {
     height          : 255px;
     display         : table;
     margin          : 0 auto;
-    border          : 1px solid black;
+    border          : 1px solid #000
 }
 
-#vaudou  img {
+#vaudou img {
     height   : 50px;
     filter   : invert(100%);
     position : absolute;
@@ -169,7 +174,6 @@ span {
     left     : 50%;
     transform: translate(-50%, -50%)
 }
-
 
 .row {
     justify-content: center
@@ -183,8 +187,7 @@ span {
 }
 
 .contenant>a {
-    font-weight: 700;
-    color      : #fff
+    color: #fff
 }
 
 .contenant>a:hover {
@@ -200,135 +203,134 @@ span {
 
 #reservation {
     height    : 100vh;
-    min-height: 800px;
+    min-height: 800px
 }
-
 
 .center {
     display        : flex;
     justify-content: center;
-    align-items    : center;
+    align-items    : center
 }
 
-
-
 button {
-    background-color: #F03435;
-    color           : white;
-    margin          : 10px 0px;
-    padding         : 6px 12px;
+    background-color: #f03435;
+    color           : #fff;
+    margin          : 10px 0;
+    padding         : 6px 12px
 }
 
 .btn {
-    background-color: #F03435;
-    color           : white;
+    background-color: #f03435;
+    color           : #fff
 }
 
 .btn:hover {
-    color: white;
+    color: #fff
 }
 
 .dropdown-menu {
-    background-color: #F03435;
+    background-color: #f03435
 }
 
 .btn:hover {
-    background-color: #F03435;
+    background-color: #f03435
 }
 
 .dropdown-item {
-    color: white
+    color: #fff
 }
 
 .red {
-    background-color: #F03435;
-    color           : white;
-    margin          : 10px 0px;
-    padding         : 6px 12px;
+    background-color: #f03435;
+    color           : #fff;
+    margin          : 10px 0;
+    padding         : 6px 12px
 }
 
 .arrow {
-    background-color: white;
-    color           : #F03435;
-    font-weight     : bold;
-    border-width    : 0px;
+    background-color: #fff;
+    color           : #f03435;
+    font-weight     : 700;
+    border-width    : 0;
     font-size       : 40px;
     padding-bottom  : 17px;
-    line-height     : 10px;
+    line-height     : 10px
 }
 
 .left {
-    color: white
+    color: #fff
 }
 
 .left:hover {
     cursor: default
 }
 
-
-
 .redLink {
     color          : red;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 .centerText {
-    text-align: center;
-    margin    : 100px 0px;
+    text-align : center;
+    margin     : 100px 0;
+    font-weight: 600
 }
 
 .centerText>p {
-    margin: 0;
+    margin: 0
 }
 
 #tarifs {
     height: 300px;
-    margin: 0px 100px;
+    margin: 0 100px
+}
+
+.heures {
+    font-weight: 600
 }
 
 .hc {
     text-align      : center;
-    background-color: #FFEDED;
-    border-radius   : 20px;
+    background-color: #ffeded;
+    border-radius   : 20px
 }
 
 .nbjoueurs {
-    text-align: center;
-    color     : red;
-    /* font-weight: bold; */
+    text-align : center;
+    color      : red;
+    padding-top: 30px
 }
 
 .rond {
     width        : 25px;
     height       : 25px;
-    background   : lightgray;
+    background   : #d3d3d3;
     font         : bold 13px Arial;
     border-radius: 50%;
     border       : none;
-    color        : black;
+    color        : #000;
     font-size    : 13px;
     padding-left : 10px;
-    padding-top  : 3px;
+    padding-top  : 3px
 }
 
 .plus {
     padding-top : 5px;
-    padding-left: 9px;
+    padding-left: 9px
 }
 
 .hp {
     text-align      : center;
-    background-color: #FFEDED;
-    border-radius   : 20px;
+    background-color: #ffeded;
+    border-radius   : 20px
 }
 
 .float {
     background-color: red;
     margin-top      : -13px;
     border-radius   : 20px;
-    display         : inline-block;
+    display         : inline-block
 }
-
 
 @media screen and (min-width:992px) {
     .navbar-brand {
@@ -358,15 +360,12 @@ button {
         display: none
     }
 
-
     .trouver {
-        background-color: black;
-       
+        background-color: #000
     }
 
     .contact {
-        background-color: black;
-       
+        background-color: #000
     }
 
     .hide {
@@ -374,7 +373,7 @@ button {
     }
 
     #tarifs {
-        height: 500px;
-        margin: 0px 100px;
+        height: 600px;
+        margin: 0 100px
     }
 }
